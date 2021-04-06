@@ -1,0 +1,18 @@
+
+dictionary = {'1':'2', 'a':'3','-1':'1','3':'a'}
+sum = 0
+spisok = []
+import math
+for key in dictionary:
+    print(key)
+    if key.isalpha() == True:
+        continue
+    elif math.fabs(float(key))>= 0 and math.fabs(float(key))<=9 :
+        if dictionary[key].isalpha() == True:
+            continue
+        else:
+            sum+=int(key)
+            sum+=int(dictionary[key])
+            spisok.append(sum)
+            sum = 0
+print(spisok) 

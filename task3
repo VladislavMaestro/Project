@@ -1,0 +1,5 @@
+
+number = ['a',1,-2,1.2]
+for num in number: 
+    if num < 0: 
+        print(num)
