@@ -1,0 +1,9 @@
+year = int(input('введите цифры'))
+if year >= 1 and year <= 4:
+    print("1-я ступень среднего образования")
+elif year >= 5 and year <= 9:
+    print("2-я ступень среднего образования")
+elif year >= 10 and year <= 11:
+    print("3-я ступень среднего образования")
+else:
+    print("Ошибка ввода")

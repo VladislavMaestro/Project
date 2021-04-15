@@ -1,0 +1,5 @@
+dictionary = {29:"abcd", 3:"abcde", 7:"ab"}
+keys = list(dictionary.keys())
+keys.sort()
+for i in keys:
+    print(i, ':', dictionary[i])
