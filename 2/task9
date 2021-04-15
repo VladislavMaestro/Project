@@ -1,3 +1,0 @@
-s = str(input("вводите строку,: "))
-for i in range(0,len(s)):
-    print(s[i],'-',ord(s[i]))

@@ -1,8 +1,0 @@
-a = float(input("Введите число: "))
-b = float(input("Введите число: "))
-if a > b:
-    print ("1 число больше")
-elif a < b:
-    print("2 число больше")
-else:
-    print("числа равны")
